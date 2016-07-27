@@ -1,0 +1,151 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+    .img-block {
+        max-height:none;
+    }
+    .container-img  {
+        text-align: center;
+    }
+    .block-blog .img-blog {
+         float: none;
+         width:100%;
+         max-height: none;
+         padding-right: 0px;
+        text-align: center;
+    }
+    .block-blog .img-blog img {
+        max-width: 500px;
+    }
+    .block-blog .description-blog {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .content-contact form input {
+        max-width: none;
+    }
+    .content-contact .left-contact {
+        margin-left: 20px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .block-blog .description-blog {
+        margin-left: 0px;
+    }
+    .content-contact form span {
+        display: block;
+        margin-top: 20px;
+    }
+    .content-contact form .color-star {
+       display: inline-block;
+    }
+    .content-contact form span {
+        display: block;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .content-contact .left-contact {
+        float: none;
+    }
+    .content-contact .left-contact {
+         margin-left: 0px;
+    }
+    .content-contact {
+        text-align: center;
+    }
+    .content-contact .form-contact {
+        padding-left: 0;
+        margin: 0 10px;
+    }
+    .content-contact .address, .hotline, .email {
+        display: inline-block;
+    }
+    .client-block .bx-wrapper img {
+        margin:auto;
+    }
+
+    .client-block .brands-img a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+}
+@media only screen and (max-width: 675px) {
+    header nav {
+        transform: translateX(100%);
+        float: none;
+        height: 100vh;
+        position: absolute;
+        right: 0;
+        padding-top: 130px;
+        background-color: #fff;
+        max-width: 130px;
+        width: 100%;
+    }
+    .nav-bars {
+        display: block;
+    }
+    .services-container .services-block {
+        width: 100%;
+        max-width: 500px;
+    }
+    .about-content .left-block, .right-block {
+        width: 100%;
+        max-width: 600px;
+    }
+
+}
+
+
+@media only screen and (max-width: 570px) {
+    .section-description li {
+        padding: 0;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .img-block-work img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 480px) {
+
+}
+@media only screen and (max-width: 360px) {
+
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+}
+@media only screen and (min-width: 675px) {
+    .nav-bars {
+        display: none;
+    }
+    /*.active-right-menu {*/
+        /*transform: translateX(100%);*/
+    /*}*/
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1368px) {
+	
+}
