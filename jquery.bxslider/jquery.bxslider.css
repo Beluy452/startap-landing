@@ -33,7 +33,7 @@
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
     position: absolute;
-    top: 1px;
+    bottom: -60px;
     width: 100%;
 }
 
@@ -54,9 +54,11 @@
 
 .bx-wrapper .bx-pager {
     text-align: center;
-    font-size: 16px;
+    font-size: .85em;
     font-family: Arial;
-    background-color: rgba(0, 0, 0, 0.83);
+    font-weight: bold;
+    color: #666;
+    padding-top: 20px;
 }
 
 .bx-wrapper .bx-pager .bx-pager-item,
@@ -64,24 +66,26 @@
     display: inline-block;
     *zoom: 1;
     *display: inline;
-    width: 20%;
-    padding: 9px;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-    color: #fff;
+    background: #dddddd;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
     margin: 0 5px;
     outline: 0;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    font-weight: 600;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-    color: #DD2A3A;
+    background: #c0301c;
 }
+
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
