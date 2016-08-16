@@ -1,23 +1,17 @@
 $(document).ready(function() {
 
-    // $('#show-products').click(function(event) {
-    //     event.preventDefault();
-    //     $('.hidden-block').toggle('Open');
-    //     $('#show-products').text('Скрить');
-    // });
 
     $('.nav-bars').click(function() {
         $('nav').toggleClass('active-right-menu');
         $('.nav-bars').toggleClass('active-nav-bar');
-        // $('h1').toggleClass('active-h1');
     });
 
-    $('menu a [href^="#"]').on('click', function(event) {
+    $('a[href^="#"]').on('click', function(event) {
         event.preventDefault();
         var anchor = this.hash;
         $('html, body').stop().animate({
             scrollTop: $(anchor).offset().top - 110
-        }, 2500);
+        }, 2000);
     }); //scroll якорів
 
     // Header Scroll
